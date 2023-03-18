@@ -1,1 +1,210 @@
-<h1>Work in progress</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #d00;
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.game-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-list li {
+    width: 30%;
+}
+
+.game-list li img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #c00;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer li:last-child {
+    margin-right: 0;
+}
+
+footer a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #d00;
+}
+
+</style>
+    <title>Blessed</title>
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blessed</h1>
+    </header>
+
+    <main>
+        <section id="games">
+            <h2>Games</h2>
+            <ul class="game-list">
+                <li>
+                    <img src="./game.png">
+                    <h3>Супер гонки 3д</h3>
+                    <p>Гоночный симулятор в открытом мире.</p>
+                </li>
+                <li>
+                    <img src="http://remnant.screwltd.com/img/REMNANT_LOGO_full.png" alt="Game 2">
+                    <h3>REMNANT</h3>
+                    <p>Open beta test for everyone!
+                       <br>You can get a preview build by registering and joining our discord using the button below.
+                       <br>Get unique rewards for finding bugs.<br>Let's create a game together!
+                    </p>
+                </li>
+                <li>
+                    <p>Game list will be updated soon...</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>I am engaged in game development and am a member of the SCREW LTD team. On this site you will find all the projects I have worked on</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>SCREW LTD. &copy; 2023</p>
+    </footer>
+
+</body>
+</html>
