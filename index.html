@@ -9,10 +9,25 @@
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #111;
-    color: #fff;
+ background: linear-gradient(to bottom, #111111, #343c59);
+  background-size: 100% 200%;
+  animation: gradient 7s ease infinite;
+  color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
 }
 
 header {
@@ -178,16 +193,14 @@ footer a:hover {
             <h2>Games</h2>
             <ul class="game-list">
                 <li>
-                    <img src="./game.png">
+                    <img src="./game.jpg">
                     <h3>Супер гонки 3д</h3>
-                    <p>Гоночный симулятор в открытом мире.</p>
+                    <p>15.03.2023</p>
                 </li>
                 <li>
                     <img src="http://remnant.screwltd.com/img/REMNANT_LOGO_full.png" alt="Game 2">
-                    <h3>REMNANT</h3>
-                    <p>Open beta test for everyone!
-                       <br>You can get a preview build by registering and joining our discord using the button below.
-                       <br>Get unique rewards for finding bugs.<br>Let's create a game together!
+                    <h3><a style="color: white;" href="https://remnant.screwltd.com">REMNANT</a></h3>
+                    <p>07.02.2022
                     </p>
                 </li>
                 <li>
@@ -198,12 +211,12 @@ footer a:hover {
 
         <section id="about">
             <h2>About</h2>
-            <p>I am engaged in game development and am a member of the SCREW LTD team. On this site you will find all the projects I have worked on</p>
+            <p>I am engaged in game development and am a member of the SCREW LTD.<br>On this site you will find all the projects I have worked on.<br><a style="color: white" href="mailto: blessed@screwltd.com">E-Mail</a><br><a style="color: white" href="https://t.me/fxckfxckx">Telegram</a><br><a style="color: white" href="https://www.instagram.com/wquilxxs/?next=%2F">Instagram</a></p></p>
         </section>
     </main>
 
     <footer>
-        <p>SCREW LTD. &copy; 2023</p>
+        <p><a style="color: white;" href="https://screwltd.com">SCREW LTD.</a></a> &copy; 2023</p>
     </footer>
 
 </body>
